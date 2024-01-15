@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>1001search.ir is the best search tool of 1001ketab.ir-هزارویک سرچ بهترین ابزار جستجوی هزارویک کتاب</title>
+	<link href="Style/Style.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="Script/1001search.js"></script>
+</head>
+<body>
+	<div id="c1">
+
+		<div id="Title">
+			1001search.ir
+		</div>
+
+		<div id="CenterContent" class="padding">
+			<form>
+				جستجو:
+				<input type="text" id="SearchBox1" />
+				فقط هزارویک کتاب
+				<input type="checkbox" id="CheckBox1" />
+				<input type="button" value="search" onclick="javascript:DoSearch();" />
+			</form>
+		</div>
+
+		<div id="Link">
+			<a href="http://1001all.ir" title="1001all.ir">
+				دروازه هزارویک کتاب
+			</a>
+		</div>
+		
+		<div id="Message">
+			<p class="OpacityText padding">
+				با مطالعه همیشه پیروزید.
+				<br />
+				<span class="en">
+					You will win always, if study.
+				</span>
+			</p>
+		</div>
+
+		<div id="Copyright">			
+				&copy;
+				<span id="Year">Year</span>
+				 کلیه حقوق مالکیت معنوی معلق است به شرکت هزارویک کتاب.
+				<hr />
+				<a href="http://1001ketab.co.ir">
+					شرکت تجارت الکترونیک هزارویک کتاب. تاسیس 1386
+				</a>
+				<br />
+				<span id="LDate" style="font-size: xx-small;">Local Time.</span>
+				<script language="javascript">
+					var D = new Date();
+					document.getElementById("Year").innerHTML = D.getFullYear();
+					document.getElementById("LDate").innerHTML = D;
+				</script>
+		</div>
+
+	</div>
+</body>
+</html>

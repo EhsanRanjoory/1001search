@@ -1,0 +1,82 @@
+﻿/* 1001all style */
+html{
+	direction: rtl;
+}
+body{
+	background-color: white;
+	margin: 15px;
+	font-family: tahoma;
+}
+a,a:hover,a:visited,a:active{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	text-decoration: underline;
+}
+.OpacityText{
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+}
+.padding{
+	padding: 5px;
+}
+.en{
+	direction: ltr;
+	text-align: left;
+}
+#c1{
+	background-image: url('BG.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	border-radius: 30px 30px 30px 30px;
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 250px 100px 150px 100px 500px auto;
+	color: black;
+}
+#Title{
+	grid-column: 2/4;
+	grid-row: 2/3;
+	text-align: center;
+	text-shadow: 3px 3px 5px white;
+	font-size: 40px;
+	font-weight: bold;
+	/*background-color: white;*/
+}
+#CenterContent{
+	grid-column: 2/4;
+	grid-row: 3/4;
+	text-shadow: 1px 1px 5px white;
+	border: 1px solid black;
+	border-radius: 15px 15px 15px 15px;
+	background-color: white;
+	opacity: 0.8;
+	text-align: center;
+}
+#Message{
+	grid-column: 2/3;
+	grid-row: 4/5;
+	text-shadow: 1px 1px 5px white;
+	text-align: justify;
+}
+#Message>p{
+	border-radius: 5px;
+}
+#Link{
+	grid-column: 3/4;
+	grid-row: 4/5;
+	text-align: left;
+	text-shadow: 1px 1px 5px white;
+}
+#Copyright{
+	grid-column: 2/4;
+	grid-row: 5/6;
+	font-size: small;
+	text-align: center;
+text-shadow: 1px 1px 5px white;
+}
